@@ -73,7 +73,7 @@ extern volatile float dmrRxAGCrxPeakAverage;
 #define HOTSPOT_BUFFER_SIZE                      50U
 #define HOTSPOT_BUFFER_COUNT                     48U
 
-#define DMR_RX_AGC_DEFAULT_PEAK_SAMPLES			2000.0f
+#define DMR_RX_AGC_DEFAULT_PEAK_SAMPLES			250.0f
 
 extern union sharedDataBuffer
 {
