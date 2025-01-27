@@ -4,3 +4,5 @@ opengd77/MDUV380_firmware/application/include/user_interface/languages/src/*.gla
 opengd77/MDUV380_firmware/.settings/language.settings.xml
 opengd77/MDUV380_firmware/.settings/stm32cubeide.project.prefs
 opengd77/MDUV380_firmware/application/include/user_interface/languages/src/languages_builder
+.vscode/settings.json
+.DS_Store
