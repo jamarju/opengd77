@@ -1,12 +1,18 @@
 # OpenGD77
 
-This is the firmware OpenGD77 for the MD-UV380/390 / UV380/390 / Retevis RT-3S / Baofeng DM-1701 / DM-1701B / Retevis RT-84 family of DMR transceivers.
+This is a fork of the firmware OpenGD77 for the MD-UV380/390 / UV380/390 / Retevis RT-3S / Baofeng DM-1701 / DM-1701B / Retevis RT-84 family of DMR transceivers.
 
-Original source code downloaded from:
+It is currently based off of version 20240908.
 
-https://www.opengd77.com/downloads/releases/MDUV380_DM1701/R20240908/
+I plan to keep the `main` branch updated with the latest version of OpenGD77 as new releases become available.
 
 See original [README.md](opengd77/README.md) for more information.
+
+# Changes to the original firmware
+
+- My DM-1701's minimum volume is still a bit high especially in quiet environments. I added negative AGC values -9dB, -6dB, -3dB to fix this problem.
+
+See branch `agc-negative` for more information.
 
 # Requirements
 
